@@ -1,0 +1,8 @@
+{
+    "message": "Hello, this is a test response!",
+    "status": "success",
+    "data": {
+      "id": 123,
+      "name": "WireMock Test"
+    }
+  }

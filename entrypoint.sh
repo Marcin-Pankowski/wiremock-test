@@ -1,6 +1,6 @@
 #!/bin/sh
 # URL of the GitHub repository to clone
-GITHUB_REPO_URL="https://github.com/username/repository.git"
+GITHUB_REPO_URL="https://github.com/Marcin-Pankowski/wiremock-test.git"
 
 # Directory to store the WireMock configuration
 CONFIG_DIR="/home/wiremock"
