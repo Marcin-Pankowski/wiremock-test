@@ -10,7 +10,7 @@
     },
     "response": {
       "status": 404,
-      "bodyFileName": "finnova/coresearch/customer12345found.json",
+      "bodyFileName": "finnova/coresearch/customer123456notfound.json",
       "headers": {
         "Content-Type": "application/json"
       }
