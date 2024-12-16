@@ -1,0 +1,11 @@
+{
+    "request": {
+      "method": "GET",
+      "url": "/api/testbad"
+    },
+    "response": {
+      "status": 500,
+      "message" : "Customer not found"
+      }
+    }
+  }

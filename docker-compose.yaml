@@ -3,10 +3,9 @@ version: '3.8'
 services:
   wiremock:
     build:
-      context: .
-      dockerfile: Dockerfile
+      context: .  # Build from the current directory (uses Dockerfile)
     container_name: wiremock-git
     ports:
-      - "8080:8080" # Expose WireMock on port 8080
+      - "8080:8080"  # Expose WireMock on port 8080
     environment:
-      - GITHUB_REPO_URL=https://github.com/username/repository.git
+      - GITHUB_REPO_URL=https://github.com/Marcin-Pankowski/wiremock-test
