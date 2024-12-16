@@ -10,7 +10,7 @@
     },
     "response": {
       "status": 200,
-      "bodyFileName": "customer12345found.json",
+      "bodyFileName": "finnova/coresearch/customer12345found.json",
       "headers": {
         "Content-Type": "application/json"
       }
