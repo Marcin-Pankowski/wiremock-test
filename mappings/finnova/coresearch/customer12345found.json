@@ -1,0 +1,18 @@
+{
+    "request": {
+      "method": "GET",
+      "url": "/finnova/coresearch/",
+      "queryParameters": {
+      "customerLNr": {
+        "equalTo": "12345"
+      }
+    }
+    },
+    "response": {
+      "status": 200,
+      "bodyFileName": "customer12345found.json",
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+}
