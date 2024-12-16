@@ -1,0 +1,6 @@
+{
+    "status": "error",
+    "message": "Internal Server Error",
+    "code": 500,
+    "details": "Something went wrong on the server. Please try again later."
+  }

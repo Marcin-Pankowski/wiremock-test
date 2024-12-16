@@ -1,11 +1,13 @@
 {
     "request": {
       "method": "GET",
-      "url": "/api/testbad"
+      "url": "/api/error"
     },
     "response": {
       "status": 500,
-      "message" : "Customer not found"
+      "bodyFileName": "500-response.json",
+      "headers": {
+        "Content-Type": "application/json"
       }
     }
   }
