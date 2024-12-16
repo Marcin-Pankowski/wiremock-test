@@ -1,7 +1,7 @@
 {
     "request": {
       "method": "GET",
-      "url": "/api/finnova/coresearch",
+      "urlPathPattern": "/api/finnova/coresearch",
       "queryParameters": {
       "customerLNr": {
         "equalTo": "12345"
