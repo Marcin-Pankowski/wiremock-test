@@ -1,0 +1,6 @@
+{
+    "status": "error",
+    "message": "Customer not found",
+    "code": 404,
+    "details": "The customer LNr is unknown."
+  }
