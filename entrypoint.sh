@@ -1,8 +1,8 @@
 #!/bin/sh
-# URL of the GitHub repository to clone
+# URL of the GitHub repository
 GITHUB_REPO_URL="https://github.com/Marcin-Pankowski/wiremock-test.git"
 
-# Directory to store the WireMock configuration
+# Directory for WireMock configuration
 CONFIG_DIR="/home/wiremock"
 
 # Clone the repository
@@ -17,4 +17,4 @@ cp -r /tmp/wiremock-config/__files $CONFIG_DIR/
 
 # Start WireMock
 echo "Starting WireMock..."
-java -jar /wiremock/wiremock-standalone.jar --port 8080 --root-dir $CONFIG_DIR
+java -jar /wiremock/wiremock-standalone.jar --port 8080 --root-dir $CONFIG_DIR  

@@ -2,27 +2,11 @@ version: '3.8'
 
 services:
   wiremock:
-    image: wiremock/wiremock:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
     container_name: wiremock-git
-    entrypoint: ["/bin/sh", "/entrypoint.sh"]
     ports:
       - "8080:8080" # Expose WireMock on port 8080
-    volumes:
-      - ./entrypoint.sh:/entrypoint.sh # Mount the custom startup script
     environment:
       - GITHUB_REPO_URL=https://github.com/username/repository.git
-    depends_on:
-      - git-install
-    networks:
-      - wiremock-net
-
-  git-install:
-    image: alpine/git
-    container_name: git-helper
-    networks:
-      - wiremock-net
-    command: ["sleep", "3600"] # Keeps the container alive for dependencies
-
-networks:
-  wiremock-net:
-    driver: bridge
