@@ -1,0 +1,18 @@
+{
+    "request": {
+      "method": "GET",
+      "urlPathPattern": "/api/finnova/coresearch",
+      "queryParameters": {
+      "customerLNr": {
+        "equalTo": "55555"
+      }
+    }
+    },
+    "response": {
+      "status": 200,
+      "bodyFileName": "finnova/coresearch/customer55555found.json",
+      "headers": {
+        "Content-Type": "application/json"
+      }
+    }
+}

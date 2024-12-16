@@ -1,0 +1,16 @@
+{"customer": {
+        "customerId": "CUST123456",
+        "firstName": "Max",
+        "lastName": "Mustermann",
+        "dateOfBirth": "1985-04-23",
+        "email": "john.doe@example.com",
+        "phoneNumber": "+1234567890",
+        "address": {
+        "street": "123 Main Street",
+        "city": "New York",
+        "state": "NY",
+        "postalCode": "10001",
+        "country": "USA"
+        }
+    }
+}
